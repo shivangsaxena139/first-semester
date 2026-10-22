@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+header h2{
+     color: blue;
+}
+nav{
+    display: flex;
+    gap: 20px;
+  
+}
+nav a{
+   color: white;
+   text-decoration: none;
+}
+body{
+    background-color:rgb(31, 34, 36);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+    border: 50px;
+}
+p{
+    margin: 20px;
+}
+h3{
+    margin: 15px;
+}
+h1{
+    margin: 10px;
+    font-size: 50px;
+    color:blue;
+}
+home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap:40px;
+}
